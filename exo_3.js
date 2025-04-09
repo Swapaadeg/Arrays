@@ -1,5 +1,5 @@
 let fruits = ['apple', 'banana', 'cherry']
-// console.log(fruits)
-fruits.forEach(fruit => {
-    console.log(fruit);
-  })
+
+for(let item of fruits) {
+    console.log(item)
+}
