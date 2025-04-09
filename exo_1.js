@@ -1,7 +1,7 @@
 const numbers = [1, 2, 3, 4, 5]
 
-const numbersMultiply = numbers.map((item) => {
-    return item.numbersMultiply(item*2)
-}
-)
-console.log(numbers)
+const multiply = numbers.map((num) => {
+    return num * 2
+})
+
+console.log(multiply)
