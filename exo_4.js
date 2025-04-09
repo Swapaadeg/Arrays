@@ -1,7 +1,10 @@
 let fruits = ['apple', 'banana', 'cherry']
 
 function reverseArray(arr) {
-    arr.reverse();
+    let reversed = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+      reversed.push(arr[i]);
+    }
+    return reversed;
   }
-  reverseArray(fruits);
-  console.log(fruits);
+console.log(reverseArray(fruits))
